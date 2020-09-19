@@ -1,0 +1,2 @@
+<import src="./consultCollocation.vue.wxml" />
+    <template is="4450c4f6" data="{{ ...$root['0'], $root }}"/>

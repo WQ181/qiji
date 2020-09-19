@@ -1,0 +1,177 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/imageTest/imageTest",
+			"style": {}
+		},
+		{
+			"path": "pages/pre-im/pre-im"
+		},
+		{
+			"path": "pages/im/im"
+		},
+		
+		{
+			"path": "pages/register/register",
+			"style": {}
+		},
+		{
+			"path": "pages/kf_pre-im/kf_pre-im",
+			"style": {}
+		},
+		{
+			"path": "pages/kf_im/kf_im",
+			"style": {}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "个人中心" //设置页面标题文字
+			}
+		},
+		{
+			"path": "pages/answer/answer",
+			"style": {
+				"navigationBarTitleText": "设计方案" //设置页面标题文字
+			}
+		},
+		{
+			"path": "pages/collocation/collocation"
+		},
+		{
+			"path": "pages/collocationDetails/collocationDetails"
+		},
+		{
+			"path": "pages/wardrobe/wardrobe"
+		},
+		{
+			"path": "pages/record/record"
+		},
+		{
+			"path": "pages/manageDetail/manageDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/manage/manage",
+			"style": {}
+		},
+		{
+			"path": "pages/managePush/managePush",
+			"style": {}
+		},
+		{
+			"path": "pages/Review/Review",
+			"style": {}
+		},
+		{
+			"path": "pages/ReviewDetails/ReviewDetails",
+			"style": {}
+		},
+		{
+			"path": "pages/announcement/announcement",
+			"style": {}
+		},
+		{
+			"path": "pages/memberCollocation/collocation",
+			"style": {}
+		},
+		{
+			"path": "pages/memberCollocationD/collocationDetails",
+			"style": {}
+		},
+		{
+			"path": "pages/memberDetail/memberDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {}
+		},
+		{
+			"path": "pages/consultCollocation/consultCollocation",
+			"style": {}
+		},
+		{
+			"path": "pages/Wait/Wait",
+			"style": {}
+		},
+		{
+			"path": "pages/kf_Review/kf_Review",
+			"style": {}
+		},
+		{
+			"path": "pages/kf_ReviewDetails/kf_ReviewDetails",
+			"style": {}
+		},
+		{
+			"path": "pages/consultant/consultant",
+			"style": {
+				"navigationBarTitleText": "形象顾问" //设置页面标题文字
+			}
+		},
+		{
+			"path": "pages/image/image",
+			"style": {}
+		},
+		{
+			"path": "pages/advisory/advisory",
+			"style": {}
+		},
+		{
+			"path": "pages/private/private",
+			"style": {}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {}
+		},
+		{
+			"path": "pages/Answered/Answered",
+			"style": {}
+		},
+		{
+			"path": "pages/Order/Order",
+			"style": {}
+		}
+
+	],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#1296db",
+		"list": [{
+				"pagePath": "pages/pre-im/pre-im",
+				"text": "即时咨询",
+				"iconPath": "static/image/consult.png",
+				"selectedIconPath": "static/image/consult_on.png"
+			},
+			{
+				"pagePath": "pages/advisory/advisory",
+				"text": "一元咨询",
+				"iconPath": "static/icon/disMessage.png",
+				"selectedIconPath": "static/icon/Message.png"
+			},
+			{
+				"pagePath": "pages/kf_pre-im/kf_pre-im",
+				"text": "客服",
+				"iconPath": "static/image/kf.png",
+				"selectedIconPath": "static/image/kf_on.png"
+			},
+			{
+				"pagePath": "pages/member/member",
+				"text": "个人中心",
+				"iconPath": "static/image/member.png",
+				"selectedIconPath": "static/image/member_on.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "奇纪时尚",
+		"navigationBarTextStyle": "black"
+	}
+}

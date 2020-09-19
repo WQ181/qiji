@@ -1,0 +1,2 @@
+<import src="./kf_Review.vue.wxml" />
+    <template is="7e61e850" data="{{ ...$root['0'], $root }}"/>

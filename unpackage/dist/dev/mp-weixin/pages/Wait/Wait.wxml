@@ -1,0 +1,2 @@
+<import src="./Wait.vue.wxml" />
+    <template is="5bbae376" data="{{ ...$root['0'], $root }}"/>

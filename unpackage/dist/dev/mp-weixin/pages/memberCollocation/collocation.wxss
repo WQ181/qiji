@@ -1,0 +1,40 @@
+
+.history {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+}
+.page__bd {
+	padding-bottom: 0rpx;
+}
+.weui-cell {
+	padding: 12rpx 15rpx 12rpx 35rpx;
+}
+.swiper-tab {
+	width: 100%;
+	border-bottom: 2rpx solid #777777;
+	text-align: center;
+	line-height: 100rpx;
+}
+.swiper-tab-list {
+	font-size: 30rpx;
+	display: inline-block;
+	width: 33.33%;
+	color: #777777;
+}
+.on {
+	color: #31b5fe;
+	border-bottom: 5rpx solid #31b5fe;
+}
+

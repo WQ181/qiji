@@ -1,0 +1,2 @@
+<import src="./managePush.vue.wxml" />
+    <template is="26659994" data="{{ ...$root['0'], $root }}"/>

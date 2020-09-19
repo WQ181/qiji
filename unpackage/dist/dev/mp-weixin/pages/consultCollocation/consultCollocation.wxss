@@ -1,0 +1,76 @@
+
+.swiper-tab {
+	width: 100%;
+	border-bottom: 2rpx solid #777777;
+	text-align: center;
+	line-height: 100rpx;
+}
+.swiper-tab-list {
+	font-size: 30rpx;
+	display: inline-block;
+	width: 33.33%;
+	color: #777777;
+}
+.on {
+	color: #31b5fe;
+	border-bottom: 5rpx solid #31b5fe;
+}
+.swiper-con swiper {
+	height: 82vh;
+}
+.swiper-con scroll-view {
+	height: 100%;
+}
+.myinfo {
+	width: 100%;
+	height: 200rpx;
+}
+.myicon {
+	margin-top: 5%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	margin-left: 10%;
+}
+.myicon image {
+	width: 128rpx;
+	height: 128rpx;
+	margin: 10rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+	        box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+}
+.myicon text {
+	font-size: 30rpx;
+	color: #565656;
+}
+.mydata {
+	width: 80%;
+}
+.mydata text {
+	font-size: 35rpx;
+	margin-top: 20rpx;
+}
+.head {
+	width: 100%;
+}
+.head text {
+	width: 380rpx;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 35rpx;
+}
+

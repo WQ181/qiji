@@ -1,0 +1,193 @@
+
+.foot {
+	position: fixed;
+	width: 100%;
+	background: #ffffff;
+	bottom: 0;
+	border: 2rpx solid #d6d6d6;
+}
+.pagination {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 50rpx;
+}
+.num {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 10rpx;
+	width: 200rpx;
+}
+.num input {
+	width: 100rpx;
+}
+
+
+page {
+	background-color: #F9F9F9;
+}
+.area {
+	width: 100%;
+	height: 500rpx;
+}
+.head {
+	width: 98%;
+	height: 400rpx;
+	margin-left: 1%;
+}
+.name {
+	font-size: 50rpx;
+	padding-left: 50rpx;
+	padding-bottom: 50rpx;
+}
+.grade {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 80rpx;
+}
+.grade_input {
+
+	width: 70%;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #000000;
+	        box-shadow: 5rpx 5rpx 10rpx #000000;
+	height: 70rpx;
+	margin-left: 60rpx;
+}
+.consultationFees {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 80rpx;
+	margin-top: 40rpx;
+}
+.consultationFees_input {
+	width: 70%;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #000000;
+	        box-shadow: 5rpx 5rpx 10rpx #000000;
+	height: 70rpx;
+	margin-left: 60rpx;
+}
+.experienceFees_input {
+	width: 70%;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #000000;
+	        box-shadow: 5rpx 5rpx 10rpx #000000;
+	height: 130rpx;
+	margin-left: 60rpx;
+	margin-bottom: 10rpx;
+	color: #808080;
+}
+.body {
+	border: 1px solid #ccc;
+	border-radius: 20rpx;
+	margin-left: 5%;
+
+	margin-top: 100rpx;
+	height: 500rpx;
+	width: 90%;
+}
+.buttons {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 80%;
+	margin-left: 10%;
+}
+.change_consult {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 40rpx;
+	width: 100%;
+}
+.change_consult button {
+	width: 100%;
+	background-color: #F9C1C0;
+}
+.change {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 40rpx;
+	width: 100%;
+}
+.change button {
+	margin-top: 10rpx;
+	width: 100%;
+	background-color: #EBEBEB;
+}
+.dot {
+	color: red;
+	font-size: 40rpx;
+}
+.change_pwd {
+	margin-top: 10rpx;
+	width: 600rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 10rpx;
+}
+.change_input {
+	border: 1px solid #ccc;
+	margin-top: 10rpx;
+	width: 200rpx;
+	height: 80rpx;
+}
+

@@ -1,0 +1,353 @@
+
+.head {
+	width: 100rpx;
+	height: 100rpx;
+}
+.swiper {
+	height: 90vh;
+	width: 100%;
+}
+.container {
+	height: 85%;
+	background-color: #F3F3F3;
+}
+.container scroll-view {
+	height: 100%;
+}
+.myinfo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	width: 90%;
+	height: 100%;
+}
+.myicon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-left: 10%;
+	height: 300rpx;
+}
+.mydata {
+	width: 70%;
+	margin-left: 18%;
+	height: 300rpx;
+	margin-top: 10rpx;
+}
+.img {
+	width: 150rpx;
+	height: 100%;
+}
+.img image {
+	width: 230rpx;
+	height: 230rpx;
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+}
+.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 150rpx;
+	width: 105%;
+	background-color: #FFFFFF;
+}
+.title text {
+	width: 100%;
+	/* display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden; */
+	font-size: 33rpx;
+	/* text-indent: 40upx; */
+	color: #A1A1A1;
+	padding-left: 20rpx;
+	margin-right: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.brief {
+	height: 90rpx;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.brief text {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	/* text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer; */
+	font-size: 26rpx;
+	color: #A1A1A1;
+}
+.container-foot {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	background-color: #FFFFFF;
+	width: 105%;
+}
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.btn_push1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 170rpx;
+	height: 100%;
+	margin-left: 10rpx;
+	border-radius: 30rpx;
+	background-color: #F6B4B5;
+}
+.btn_push2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 170rpx;
+	height: 100%;
+	margin-left: 10rpx;
+	border-radius: 30rpx;
+	background-color: #DFE0E2;
+}
+.btn_del text {
+	font-size: 26rpx;
+}
+.btn_del {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 170rpx;
+	height: 100%;
+	margin-left: 10rpx;
+	border-radius: 30rpx;
+	background-color: #DFE0E2;
+}
+.button {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 170rpx;
+	height: 90%;
+	margin-left: 20rpx;
+	border-radius: 30rpx;
+	background-color: #40BEFF;
+}
+.button text {
+	font-size: 26rpx;
+}
+.updatedAt {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 60%;
+	margin-left: 40rpx;
+	margin-top: 20rpx;
+}
+.updatedAt text {
+	font-size: 26rpx;
+	color: #A1A1A1;
+}
+.footer {
+	bottom: 0;
+}
+.menu-view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	white-space: nowrap;
+	width: 100%;
+	background-color: #ffffff;
+	height: 112rpx;
+	/* 在这里设置导航条高度 */
+}
+.menu-one-view {
+	display: inline-block;
+	white-space: nowrap;
+	height: 100%;
+}
+.menu-one {
+	/* 在这里写 单个按钮样式 */
+	margin-left: 25rpx;
+	margin-right: 25rpx;
+	position: relative;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.menu-one-act {
+	/* 在这里写 单个按钮样式 */
+	margin-left: 25rpx;
+	margin-right: 25rpx;
+	position: relative;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.menu-one-txt {
+	height: 40rpx;
+	font-size: 35rpx;
+	font-weight: 400;
+	color: rgba(154, 154, 154, 1);
+	line-height: 40rpx;
+	margin-left: 40rpx;
+}
+.menu-one-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.menu-one-bottom-color {
+	width: 60%;
+	height: 4rpx;
+}
+.menu-one-act .menu-one-bottom .menu-one-bottom-color {
+	width: 60%;
+	height: 4rpx;
+	margin-left: 50rpx;
+	background: rgba(0, 170, 255, 1);
+}
+.btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 80%;
+	margin-top: 50rpx;
+}
+.btn button {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	width: 100%;
+	height: 100%;
+	margin-left: 10%;
+}
+

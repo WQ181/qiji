@@ -1,0 +1,2 @@
+<import src="./collocation.vue.wxml" />
+    <template is="5e73367c" data="{{ ...$root['0'], $root }}"/>

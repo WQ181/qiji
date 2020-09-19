@@ -1,0 +1,8 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/uni-collapse/uni-collapse.vue.wxml" />
+<import src="/components/uni-collapse-item/uni-collapse-item.vue.wxml" />
+
+<template name="M24ecd1d6-default-24ecd1d6-2"><block wx:key="index" key="{{index}}" wx:for="{{navitems}}" wx:for-index="index" wx:for-item="item"><button open-type="{{item.type}}" data-where="{{item.where}}" bindtap="handleProxy" style="border:0;display: flex;margin-top: 50rpx; margin-bottom: 20rpx; width: 80%;justify-content: center;align-content: center;" data-eventid="{{'24ecd1d6-3-'+index}}" data-comkey="{{$k}}" class="_button M24ecd1d6"><text style="font-size: 36rpx; margin-left: 35%;color: #808080;" class="_text M24ecd1d6">{{ item.title }}</text></button></block></template>
+
+<template name="M24ecd1d6-default-24ecd1d6-3"><template title="管理员" data="{{...$root['0'], ...$root[$kk+'24ecd1d6-2'],$root, $slotdefault:'M24ecd1d6-default-24ecd1d6-2'}}" is="374dfd72"></template></template>
+

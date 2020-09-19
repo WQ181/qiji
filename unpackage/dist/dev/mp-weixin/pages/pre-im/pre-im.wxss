@@ -1,0 +1,95 @@
+
+.head{
+	font-size: 45rpx;
+	margin-bottom: 20rpx;
+	margin-left: 30rpx;
+}
+.text {
+	width: 380rpx;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+}
+.unread_comment {
+	width: 94%;
+	margin-left: 3%;
+	background: #EFC5C9;
+	-webkit-box-shadow: 0px 0px 10px #c4c4c4;
+	        box-shadow: 0px 0px 10px #c4c4c4;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	border-radius:20rpx;
+	margin-bottom: 40rpx;
+}
+.comment {
+	width: 94%;
+	margin-left: 3%;
+	
+	-webkit-box-shadow: 0px 0px 10px #c4c4c4;
+	
+	        box-shadow: 0px 0px 10px #c4c4c4;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	border-radius:20rpx;
+	margin-bottom: 40rpx;
+}
+.comment-face {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding-left: 28rpx;
+}
+.comment-face image {
+	border-radius:50%;
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+	        box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+}
+.comment-top {
+	padding-left: 20rpx;
+	font-size: 36rpx;
+}
+.comment-content {
+	color: #696969;
+	font-size: 30rpx;
+	width: 260rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.comment-msg {
+	position: absolute;
+	margin-left: 475rpx;
+	margin-top: -45rpx;
+}
+.comment-unread {
+	background-color: #FFFFFF;
+	
+	text-align: center;
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50rpx;
+}
+.comment-time {
+	position: absolute;
+	height: 50rpx;
+	margin-left: 430rpx;
+	font-size: 25rpx;
+}
+
+
+

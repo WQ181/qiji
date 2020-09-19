@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/imageTest/imageTest",
+    "pages/pre-im/pre-im",
+    "pages/im/im",
+    "pages/register/register",
+    "pages/kf_pre-im/kf_pre-im",
+    "pages/kf_im/kf_im",
+    "pages/member/member",
+    "pages/answer/answer",
+    "pages/collocation/collocation",
+    "pages/collocationDetails/collocationDetails",
+    "pages/wardrobe/wardrobe",
+    "pages/record/record",
+    "pages/manageDetail/manageDetail",
+    "pages/manage/manage",
+    "pages/managePush/managePush",
+    "pages/Review/Review",
+    "pages/ReviewDetails/ReviewDetails",
+    "pages/announcement/announcement",
+    "pages/memberCollocation/collocation",
+    "pages/memberCollocationD/collocationDetails",
+    "pages/memberDetail/memberDetail",
+    "pages/setting/setting",
+    "pages/consultCollocation/consultCollocation",
+    "pages/Wait/Wait",
+    "pages/kf_Review/kf_Review",
+    "pages/kf_ReviewDetails/kf_ReviewDetails",
+    "pages/consultant/consultant",
+    "pages/image/image",
+    "pages/advisory/advisory",
+    "pages/private/private",
+    "pages/information/information",
+    "pages/Answered/Answered",
+    "pages/Order/Order"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "奇纪时尚",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/pre-im/pre-im",
+        "text": "即时咨询",
+        "iconPath": "static/image/consult.png",
+        "selectedIconPath": "static/image/consult_on.png"
+      },
+      {
+        "pagePath": "pages/advisory/advisory",
+        "text": "一元咨询",
+        "iconPath": "static/icon/disMessage.png",
+        "selectedIconPath": "static/icon/Message.png"
+      },
+      {
+        "pagePath": "pages/kf_pre-im/kf_pre-im",
+        "text": "客服",
+        "iconPath": "static/image/kf.png",
+        "selectedIconPath": "static/image/kf_on.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "个人中心",
+        "iconPath": "static/image/member.png",
+        "selectedIconPath": "static/image/member_on.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap57.json"
+}

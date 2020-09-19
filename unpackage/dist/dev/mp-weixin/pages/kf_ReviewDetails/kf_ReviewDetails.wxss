@@ -1,0 +1,37 @@
+
+.container {
+	padding: 30rpx;
+}
+.table-data {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 60rpx;
+}
+.con-head {
+	font-size: 32rpx;
+}
+.con-data {
+	margin-left: 50rpx;
+	font-size: 32rpx;
+}
+.img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 30rpx;
+	padding-left: 2rpx;
+}
+.img image {
+	height: 300rpx;
+	padding-left: 10rpx;
+}
+.btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+

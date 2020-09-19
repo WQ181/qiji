@@ -1,0 +1,60 @@
+
+.con {
+	height: 82vh;
+}
+.con scroll-view {
+	height: 100%;
+}
+.myinfo {
+	width: 100%;
+	height: 200rpx;
+}
+.myicon {
+	margin-top: 5%;
+	margin-left: 10%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.myicon image {
+	width: 128rpx;
+	height: 128rpx;
+	margin: 10rpx;
+	-webkit-box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+	        box-shadow: 5rpx 5rpx 10rpx #c4c4c4;
+}
+.myicon text {
+	font-size: 30rpx;
+	color: #565656;
+}
+.mydata {
+	width: 80%;
+}
+.mydata text {
+	font-size: 35rpx;
+	margin-top: 20rpx;
+}
+.head {
+	width: 100%;
+}
+.head text {
+	width: 380rpx;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 35rpx;
+}
+
